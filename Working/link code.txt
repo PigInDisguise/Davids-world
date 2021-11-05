@@ -1,0 +1,1 @@
+<input type="button" value="W3 School" onclick="openWin1()">
