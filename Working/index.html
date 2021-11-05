@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<title>David's Home Page</title>
+
+<body style="background-color:DarkTurquoise;">
+
+<script>
+function openWin1() {
+  window.open("https://www.w3schools.com");
+}
+function openWin2() {
+  window.open("Games.html");
+}
+</script>
+
+</head>
+
+
+<body>
+<h2>What Can JavaScript Do?</h2>
+
+<p>JavaScript can change HTML attribute values.</p>
+
+<p>In this case JavaScript changes the value of the src (source) attribute of an image.</p>
+
+<button type="button"style=background-color:green ;"" onclick="document.getElementById('myImage').src='pic_bulbon.gif'">Turn on the light</button>
+
+<img id="myImage" src="pic_bulboff.gif" style="width:100px">
+
+<button type="button"style=background-color:red ;"" onclick="document.getElementById('myImage').src='pic_bulboff.gif'">Turn off the light</button>
+
+<br><br>
+<button type="button"style=background-color:gold ;""
+onclick="document.getElementById('demo').innerHTML = Date()">
+Click me to display Date and Time.</button>
+
+<p id="demo"></p>  
+
+<h1>Davids Home Page</h1>
+
+<p>Click the Button Below:</p>
+<button type="button"style=background-color:MediumSlateBlue ;"" onclick="alert('Davids world!')">Where are you?</button>
+<input type="button"style=background-color:MediumVioletRed  ;"" value="Games" onclick="openWin2()">
+
+<br>
+
+<h1>learn how to code</h1>
+
+<input type="button"style=background-color:SpringGreen ;"" value="W3 School" onclick="openWin1()">
+
+</body>
+</html>
